@@ -1,0 +1,147 @@
+* {
+  margin: 5px;
+  padding: 1px;
+}
+.mainlink a {
+  margin: 30px 350px;
+  text-align: center;
+  background-color: antiquewhite;
+  width: 150px;
+  height: 20px 0px;
+  border-radius: 100px;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+.container {
+  margin: 5px;
+  padding: 1px;
+
+  image-resolution: 40k;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.items {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid slateblue;
+  list-style: none;
+  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  text-align: center;
+}
+
+h1 {
+  color: black;
+}
+body {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#aboutusbody {
+  color: black;
+
+  text-align: justify;
+}
+.container img {
+  border-radius: 10px;
+  image-resolution: 40k;
+  float: left;
+}
+.container1 {
+  margin: 5px;
+  padding: 1px;
+}
+.container2 {
+  margin: 5px;
+  padding: 1px;
+  color: beige;
+  text-align: center;
+}
+
+.container nav ul li {
+  list-style: none;
+  color: rgb(205, 19, 19);
+  margin-right: 10px;
+}
+.container nav ul li a {
+  list-style: none;
+  color: firebrick;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.container nav ul {
+  display: flex;
+  text-decoration: none;
+}
+.header h1 {
+  clear: both;
+  font-family: serif;
+  font-weight: 200;
+  font-style: normal;
+  color: maroon;
+  letter-spacing: 2px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 4rem;
+}
+nav ul li a:hover {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.container1 p {
+  display: flex;
+}
+.container1 p {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container2 footer h1 {
+  bottom: 0px;
+  width: 100%;
+  text-decoration: dotted;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  background-color: rgb(95, 105, 210);
+  color: honeydew;
+}
+#btsimage {
+  float: left;
+  margin-right: 150px;
+}
+#blackpinkheading {
+  clear: both;
+}
+#blackpinkimage {
+  float: left;
+  margin-right: 150px;
+}
+#btsinfo {
+  list-style: none;
+  width: 80%;
+  display: block;
+  text-align: center;
+}
+#blackpinkinfo {
+  list-style: none;
+  width: 80%;
+  display: block;
+  text-align: center;
+}
+body{
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+table{
+  color: aliceblue;
+}
