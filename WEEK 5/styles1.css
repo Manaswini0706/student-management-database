@@ -1,0 +1,267 @@
+* {
+  margin: 5px;
+  padding: 1px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  background-repeat: no-repeat;
+  background-size:cover;
+  overflow-x: hidden;
+  position:static;
+  background-position: center;
+  background-size: cover;
+  
+}
+.mainlink a {
+  margin: 30px 350px;
+  text-align: center;
+  background-color: antiquewhite;
+  width: 150px;
+  height: 20px 0px;
+ 
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+.container {
+  margin: 5px;
+  padding: 1px;
+  image-resolution: 40k;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+
+  
+  
+}
+#index{
+  transform:rotate(358deg); 
+  animation-iteration-count: infinite;
+  transition: width 2s ease-in 2s ;
+}
+#index:hover{
+  transform: all;
+  transform: scale(1.0);
+ 
+
+}
+#musicimg{
+  transition: width 2s ease-in 2s;
+  align-items: center;
+  animation-direction: alternate;
+}
+#musicimg:hover{
+  width:100px;
+  height: 100px;
+
+}
+.items {
+  
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  list-style: none;
+  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  text-align: center;
+  align-items: center;
+  background: black;
+ 
+ 
+}
+.item{
+  width: auto;
+  height: auto;
+  animation-name:boxani;
+  animation-delay: 2s;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  transition:all ;
+  animation-direction: alternate;
+  border: 2px solid white;
+  position: relative;
+  animation-iteration-count: infinite;
+ 
+}
+@keyframes boxani{
+  0%{
+    background: white;
+   
+  }
+  10%{
+    background-color: green;
+  }
+  25%{
+    background-color:rgb(29, 74, 157); 
+  }
+
+  50%{
+    background-color:green;
+  
+  }
+  75%{
+    background:red;
+  }
+  100%{
+    background: purple;
+  
+    
+  }
+}
+.item:hover{
+  box-shadow: 10px 10px 50px grey;
+  color:aqua;
+  
+}
+#musicid{
+ 
+  animation-name:boxanim;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  transition: all 2s ease-in-out;
+
+}
+@keyframes boxanim{
+  from{
+   
+    transform: scale3d(3);
+    margin-left: 200px;
+    margin-top: 150px;
+    
+    transform:rotatez(70deg);
+    
+   
+  }
+  to{
+    
+    border-radius: 80%;
+  
+  }
+}
+
+
+
+#aboutusbody {
+  color: black;
+  text-align: justify;
+}
+.container img {
+  border-radius: 10px;
+  image-resolution: 40k;
+  float: left;
+}
+.container1 {
+  margin: 5px;
+  padding: 1px;
+}
+.container2 {
+  margin: 5px;
+  padding: 1px;
+  color: beige;
+  text-align: center;
+
+}
+
+.container nav ul li {
+  display: inline-block;
+  list-style: none;
+  color: rgb(205, 19, 19);
+  margin-right: 10px;
+}
+.container nav ul li a {
+  box-shadow: 10px 10px 50px gray;
+  list-style: none;
+  color:white;
+  text-decoration: none;
+  margin-right: 10px;
+  text-transform: uppercase;
+  transition: all  ease-in-out;
+  
+}
+.container nav ul li a:hover{
+  transform:rotate(180deg);
+  transform: scale(2);
+  border: none;
+  border-radius: 50px;
+  transition: 1s ease-in-out;
+}
+.container nav ul {
+  display: flex;
+  text-decoration: none;
+}
+.header h1 {
+  clear: both;
+  font-family: serif;
+  font-weight: 200;
+  font-style: normal;
+  color: maroon;
+  letter-spacing: 2px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 4rem;
+}
+nav ul li a:hover {
+  text-decoration: none;
+  color: red;
+  box-shadow: 10px 10px 50px salmon;
+}
+.container1 p {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.container2 footer h1 {
+  bottom: 0px;
+  width: 100%;
+  text-decoration: dotted;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  background-color: rgb(95, 105, 210);
+  color: honeydew;
+}
+#btsimage {
+  float: left;
+  margin-right: 150px;
+}
+#blackpinkheading {
+  clear: both;
+}
+#blackpinkimage {
+  float: left;
+  margin-right: 150px;
+}
+#btsinfo {
+  list-style: none;
+  width: 80%;
+  display: block;
+  text-align: center;
+}
+#blackpinkinfo {
+  list-style: none;
+  width: 80%;
+  display: block;
+  text-align: center;
+}
+
+table{
+  color: aliceblue;
+}
+a:hover{
+  transform: scale(1.35);
+  border-radius: 10px;
+}
+@media screen and(min-width:1024px) {
+  body{
+    font-size: 100%;
+  }
+}
