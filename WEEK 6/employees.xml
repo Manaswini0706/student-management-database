@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employees[
+<!ELEMENT employees (employee)>
+<!ELEMENT employee (name,phone)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST employee id CDATA  "1111">
+]>
+<employees>
+<employee id="573">
+<name>Manaswinii></name>
+<phone>8790273123</phone>
+</employee>
+</employees>
