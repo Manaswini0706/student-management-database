@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=welc, initial-scale=1.0">
+</head>
+
+<body>
+    <h1>WELCOME</h1>
+    <button id="addbtn"> Add </button>
+    <button>Cancel</button>
+    <p id="mypara">HTML is the standard markup language for Web pages.
+        Javascript is used by programmers across the world to create dynamic and interactive web content like applications and browsers. JavaScript is so popular that it's the most used programming language in the world, used as a client-side programming language by 97.0% of all websites
+        </p>
+    <script>
+        
+        var fname = "cvr"
+        document.write("<h1> Thank you,visit us again!! </h1>")
+        for (var i = 0; i < 10; i++) {
+            console.log(i);
+        }
+        var para = document.getElementById("mypara")
+
+        var x = document.getElementById("addbtn");
+        console.log(x);
+
+        var fname = prompt("enter your first name");
+
+        var lname = prompt("enter your last name");
+        var fullname = fname + lname
+
+        console.log(fname);
+        console.log(lname);
+        console.log(fullname);
+        console.log(para);
+
+        alert(fullname)
+        confirm("are you sure you want to save details? ")
+    </script>
+
+</body>
+
+</html>
