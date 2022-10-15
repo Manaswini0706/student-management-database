@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cars xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/girik/OneDrive/Desktop/manu%20WT%20LAB/week%207/cars.xsd">
+<car no="1">
+<name>maruthi desire</name>
+<type>sedan</type>
+<company>maruthi suzuki</company>
+<price>9L</price>
+</car>
+<car no="2">
+<name>911 carrera</name>
+<type>coupe</type>
+<company>porshe</company>
+<price>1.8cr</price>
+</car>
+<car no="3">
+<name>ferrari 812</name>
+<type>sports</type>
+<company>ferrari</company>
+<price>5.75cr</price>
+</car>
+</cars>
+  
