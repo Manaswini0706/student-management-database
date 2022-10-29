@@ -1,0 +1,30 @@
+<html>
+<body>
+   Enter a string <input type="text" id="string1">
+   <button onclick="isPalindrome(string1.value)">click
+   </button>
+   <script>
+     function isPalindrome(string1)
+     {
+      var string12="";
+      for(let i=string1.length;i>=0;i--)
+      {
+        string12=string12.concat(string1.charAt(i));
+      }
+      document.write(string1+"<br>");
+      document.write(string12+"<br>");
+      if(string1==string12)
+     {
+        document.write(string1+"  is  palindrome");
+     }
+     else
+     {
+        document.write(string1+"is not a Palindrome");
+     }
+     }
+    
+    </script>
+
+
+</body>
+</html>
