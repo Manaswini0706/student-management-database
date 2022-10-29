@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <body bgcolor="yellow">
+    <script>
+       function capitalize(str) 
+       {
+         str = str.split(" ");
+         for (var i = 0; i< str.length; i++)
+         {
+          str[i] = str[i][0].toUpperCase() + str[i].substr(1);
+         } 
+         return str.join(" ");
+      }
+         document.write(capitalize("elon musk"));
+         document.write("<br>"+capitalize("web technologies"));
+</script>
+</body>
+</html>
