@@ -1,0 +1,28 @@
+<html>
+    <body bgcolor="blue">
+        <script>
+         document.write("Hello Coders!");
+
+var no=prompt("Enter a two digit number");
+
+if(Number(no)%7==0)
+{
+    if(Number(no)%9==0)
+    {
+        alert("THe number"+no+"is divisible by both 7 and 9");
+    }else
+    {
+    alert("the number "+no+"is multiple of 7");
+    }
+}
+else if(Number(no)%9==0)
+{
+    alert("the number "+no+"is multiple of 9");
+}
+else
+{
+    alert("the number "+no+"is neither multiple of 7 and 9");
+}
+        </script>
+    </body>
+</html>
