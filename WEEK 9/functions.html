@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <p>Enter DOB:
+            <input type="text" id="date" placeholder="dd(/-.)mm(/-.)yyyy" onblur="dobVerify(date)"></p>
+        <p>Enter phone.no:
+            <input type="text" id="phone" placeholder="##########" onblur="phoneVerify(phone)"></p>
+        <p>Enter email: 
+            <input type="text" id="email" placeholder="Example: ex123@gmail.com" onblur="emailVerify(email)"></p>
+        <p>Enter Password:
+            <input type="text" id="pass" placeholder="Helloworld@123" onblur="passVerify(pass)"></p>
+
+        <p><input type="button" value="submit" onclick="dobVerify(date); phoneVerify(phone); emailVerify(email); passVerify(pass);" id="button"></p>
+    </div>
+
+    <script src="functions.js"></script>
+</body>
+</html>
