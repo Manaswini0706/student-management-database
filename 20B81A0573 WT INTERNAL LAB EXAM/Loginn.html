@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="javascript" href="hello.js">
+</head>
+
+<body id="index">
+    
+            <div>
+                <h1>login form</h1>
+                <form>
+                    <table>
+                       
+                        <tbody>
+                            <tr>
+                                <td>user name:</td>
+                                <td><input type="text" id="name" onblur="namechk()"><span id="nErr"></span><br></br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>password :</td>
+                                <td><input type="password" id="pword" onblur="passchk()" /><span id="pErr"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Email id:</td>
+                                <td><input type="text" id="mailid" onblur="mailchk()"><span id="mErr"></span><br></br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>phone number:</td>
+                                <td><input type="text" id="phne" onblur="phnecheck()"><span id="phErr"></span><br></br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>college name:</td>
+                                <td><input type="text" /></td>
+                            </tr>
+                            <tr>
+                                <td>hobbies :</td>
+                                <td><input type="checkbox" />Eating
+                                    <input type="checkbox" />sleeping
+                                    <input type="checkbox" />reading
+                                    <input type="checkbox" />listening music
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>gender:</td>
+                                <td><input type="radio" name="gender" />Male
+                                    <input type="radio" name="gender" />female
+                                    <input type="radio" name="gender" />other
+
+                                </td>
+                            </tr>
+
+
+
+                        </tbody>
+
+                    </table>
+
+                    <input type="submit" onclick="final()" /><br />
+                    <input type="reset" >
+
+                </form>
+            </div>
+     
+    
+</body>
+<footer>
+    @CVR COLLEGE OF ENGINEERING
+    <marquee>hello coders! Please do fill your details! </marquee>
+</footer>
+
+</html>
