@@ -1,0 +1,25 @@
+Enter the roll number <input type="text" name="roll" id="" [(ngModel)]="rollno"><br>
+<input type="submit" name="submit" id="" (click)="whenSubmit()">
+
+<div>
+    <table>
+        <thead>
+            <th>Roll Number</th>
+            <th>Name</th>
+            <th>Branch</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let a of data">
+                <td>
+                    {{a.rollno}}
+                </td>
+                <td>
+                    {{a.name}}
+                </td>
+                <td>
+                    {{a.branch}}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
